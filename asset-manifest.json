@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfofinal/static/css/main.8ada948c.css",
+    "main.js": "/portfofinal/static/js/main.81964993.js",
+    "static/js/453.bb257cf5.chunk.js": "/portfofinal/static/js/453.bb257cf5.chunk.js",
+    "static/media/purple-wallpapers-that-are-purple-black_611557-827.avif": "/portfofinal/static/media/purple-wallpapers-that-are-purple-black_611557-827.664f22e899b4a2cfb9aa.avif",
+    "index.html": "/portfofinal/index.html",
+    "main.8ada948c.css.map": "/portfofinal/static/css/main.8ada948c.css.map",
+    "main.81964993.js.map": "/portfofinal/static/js/main.81964993.js.map",
+    "453.bb257cf5.chunk.js.map": "/portfofinal/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ada948c.css",
+    "static/js/main.81964993.js"
+  ]
+}
