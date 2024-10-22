@@ -1,0 +1,239 @@
+html {
+  scroll-behavior: smooth;
+  color: #bebebe;
+}
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/public/purple-wallpapers-that-are-purple-black_611557-827.avif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #320e3b;
+  background-blend-mode: multiply;
+}
+
+
+
+/* Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: transparent;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  background-color: #f0f0f018;
+  width: auto;
+  padding: 0 1.5rem;
+  border-radius: 20px;
+  backdrop-filter: blur(5px); 
+}
+.navbar li {
+  margin: 3rem 0;
+}
+.navbar a {
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+}
+.navbar a:hover{
+  color: #00c3ff;
+}
+.navbar a.active {
+  color: #00c3ff;
+}
+
+
+
+/* Home.css */
+#home {
+  margin-left: 200px; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-evenly;
+
+}
+#home h1 {
+  font-size: 36px;
+}
+#home p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4rem; 
+}
+.name{
+  color: #008c91;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+/* About.css */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 200px;
+  height: 100vh; 
+}
+#about h2 {
+  color: #00c3ff;
+  font-size: 34px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about p {
+  line-height: 1.4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pics {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pics2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+
+
+
+/* Skills.css */
+#skills {
+  margin-left: 200px; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#skills ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#skills li {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+#skills img {
+  padding-right: 50px;
+}
+#skills h2 {
+  color: #00c3ff;
+  font-size: 34px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr {
+  height: 300px;
+  color: #00c3ff52;
+}
+
+
+
+/* Projects.css */
+#projects {
+  padding-top: 1px;
+  height: 100vh;
+  margin-left: 200px; 
+  line-height: 1.3rem;
+}
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+#projects li {
+  margin-bottom: 20px;
+}
+.centerS {
+  text-align: right;
+  padding-right: 5rem;
+}
+#projects a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #005ab9;
+}
+#projects h2 {
+  color: #00c3ff;
+  font-size: 34px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Contact.css */
+#contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px; 
+}
+#contact a {
+  text-decoration: none;
+  color: #00c3ff;
+}
+.con-main {
+  display: flex;
+  flex-direction: row;
+}
+.con {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px 0 0 10px;
+  background: linear-gradient(to right, #00c3ff2a, #cc00ff34);
+}
+.con2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#contact h2 {
+  color: #00c3ff;
+  font-size: 34px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Footer.css */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  padding: 30px;
+  border-radius: 100px 0 0 0;
+  background-color: #320e3b62;
+}
